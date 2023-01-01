@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container all">
+        <form id="search-city">
+            <input id="search-city-input" type="text" placeholder="Enter a city" class="search-line">
+            <input type="submit" value="Search" class="button-1">
+            <input type="submit" value="Current" class="button-2">
+        </form>
+        <div class="cities">
+            <span>Kyiv</span>
+            <span class="warsaw">Warsaw</span>
+            <span class="bucharest">Bucharest</span>
+            <span class="vein">Vein</span>
+            <span class="prague">Prague</span>
+        </div>
+        <hr class="hr">
+        <h2 id="main-city">Kyiv</h2>
+        <div class="row">
+            <div class="col"><h5 class="param"><span id="time">Day, current time,</span> <br /><span id="type">type of weather</span> </h5></div>
+            <div class="col"><h5 class="param">Humidity: <span id="humidity">40</span>% <br /> Wind: <span id="wind">3</span>km/h</h5></div>
+        </div>
+        <h1 id="h1">
+            <span class="four">4</span><span class="mainC" id="c">°C</span>
+        </h1>
+        
+    </div>
+    <div class="by">*by Nataliia Chynenna</div>
+    <script src="index.js"></script>
+</body>
+</html>
