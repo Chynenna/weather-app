@@ -1,0 +1,64 @@
+.all{
+    border: 2px solid #5AC2F0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    max-width: 50%;
+    width: 1400px;
+    height: 450px;
+    padding-left: 23px;
+    padding-top: 23px;
+    padding-right: 10px;
+}
+.search-line{
+    border: 2px solid #D9EDFD;
+    padding-top: 3.9px;
+    padding-right: 300px;
+    padding-left: 10px;
+    text-align: left;
+}
+.button-1{
+    border: 2px solid #42A5F5;
+    border-radius: 22px;
+    background-color: #D9EDFD;
+    font-size:0.5cm;
+    transition: 200ms;
+}
+.button-1:hover{
+    opacity: 0.75;
+}
+.button-2{
+    border: 2px solid #4EAE53;
+    border-radius: 22px;
+    background-color: #DCEFDD;
+    font-size:0.5cm;
+    transition: 200ms;
+}
+.button-2:hover{
+    opacity: 0.75;
+}
+.cities{
+    color: #59B0F6;
+    margin-left: 8px;
+    padding-top: 13px;
+    font-size: medium;
+}
+.prague, .warsaw, .vein, .bucharest{
+    padding-left: 15px;
+}
+.hr{
+    width: 700px;
+}
+.param{
+    font-weight: lighter;
+    color: #7A8090;
+}
+.by{
+    margin-left: 400px;
+    margin-top: 25px;
+    color: #2985CE;
+    font-size: large;
+    font-weight: lighter;
+}
+#type{
+    text-transform: capitalize;
+}
